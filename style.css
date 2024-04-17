@@ -1,0 +1,211 @@
+
+* {
+
+margin: 0;
+padding: 0;
+
+}
+
+
+.caixa {
+
+    padding: 25px;
+
+}
+
+
+
+
+
+.logo {
+
+      width: 130px; /* largura */
+
+}
+
+
+.link-empresa {
+
+    color: black; /*troca a cor do texto*/
+    margin-left: 10px; /*margem do lado esquerdo*/
+    font-size: 15px; /*tamanho da fonte*/
+    cursor: pointer; /*troca o cursor do mouse*/
+}
+
+.link-empresa:hover {
+
+text-decoration: underline; /*sublinhado*/
+
+}
+
+.pesquisar { 
+
+border-radius: 10px;
+
+}
+
+
+.button {
+
+width: 1px;
+min-height: min-content;
+
+}
+
+
+.link-você {
+
+    color: red;
+    margin-left: 20px; /*margem do lado esquerdo*/
+    font-size: 15px; /*tamanho da fonte*/ 
+    font-weight: 700; /*grossura da fonte*/
+    cursor: pointer; /*troca o cursor do mouse*/
+    
+}
+
+.link-você:hover {
+
+    text-decoration: underline; /*subilinhado*/
+
+}    
+
+.background {
+
+width: 100%;
+
+}
+
+
+.link-procura {
+
+
+
+    margin-left: 20px; /*margem do lado esquerdo*/
+    font-size: 15px; /*tamanho da fonte*/ 
+    font-weight: 500; /*grossura da fonte*/
+
+}
+
+.link-pessoa {
+
+    margin-left: 30px; /*margem do lado esquerdo*/
+    font-size: 15px; /*tamanho da fonte*/ 
+    font-weight: 500; /*grossura da fonte*/
+    cursor: pointer; /*troca o cursor do mouse*/
+    color: red; 
+
+
+
+}
+
+.link-acessar {
+
+    margin-left: 20px; /*margem do lado esquerdo*/
+    font-size: 15px; /*tamanho da fonte*/ 
+    font-weight: 500; /*grossura da fonte*/
+    cursor: pointer; /*troca o cursor do mouse*/
+
+
+
+}
+
+
+.link-juridica {
+
+    margin-left: 15px; /*margem do lado esquerdo*/
+    font-size: 15px; /*tamanho da fonte*/ 
+    font-weight: 500; /*grossura da fonte*/
+    cursor: pointer; /*troca o cursor do mouse*/
+
+
+}
+
+
+.ag {
+
+width: 70px;
+margin-left: 30px;
+border-radius: 10px;
+
+
+}
+
+
+.conta {
+
+border-radius: 10px;
+
+
+}
+
+
+
+
+h3 {
+
+    margin-left: 200px;
+    margin-top: 60px;
+    font-size: 40px;
+    
+
+}
+
+
+ul {
+
+display: flex; /*alinhou os botões/*
+justify-content: center; /*justificou os botões no centro, só pode ser usado com o display ativado*/
+gap: 70px; /*espaçamento entre os itens, só pode ser usado com o display ativado*/
+margin-top: 80px;
+margin-bottom: 100px;
+transition: 2s;
+
+
+
+
+}
+
+li {
+
+height: 110px;
+width: 110px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; /*caixa de botão*/
+padding-top: 30px; /*desceu os icones para centralizar*/
+display: inline-block; /*deixou os botões um do lado do outro*/
+cursor:pointer
+
+}
+
+li:hover {
+
+    transform: translateY(-35px);
+    
+    }
+
+
+.imagem-produtos{
+
+width: 50px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+
+
+}
+
+p{
+
+text-align: center;
+margin-top: 20px;
+font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
